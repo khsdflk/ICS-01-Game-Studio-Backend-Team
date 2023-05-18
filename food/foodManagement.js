@@ -29,7 +29,7 @@ function foodGenerator(max_width, max_height) {
   if (food_type <=9){
     food_type = "CanCookie";
     cookiecount++;
-    food_value = 10;
+    food_value = 100000;
   }
   if (food_type > 9 && food_type <=17){
     food_type = "CanGreen";
